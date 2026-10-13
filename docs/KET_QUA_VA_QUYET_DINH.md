@@ -5,7 +5,7 @@ Số liệu dưới đây lấy từ `descriptive_statistics.xlsx` và `anova_re
 ## 1. Quyết định về dữ liệu
 | Quyết định | Lý do |
 |---|---|
-| Giữ nguyên 8.760 dòng trong `SeoulBikeData_clean.csv`; không xóa, không điền khuyết (không có ô khuyết hay dòng trùng) | Dữ liệu sạch sẵn; chỉ cần chuyển `Date` và thêm 3 cột `Month`, `DayOfWeek`, `IsWeekend` |
+| Giữ nguyên 8.760 dòng trong file dữ liệu sạch (`Nhom23_Data_clean.csv`); không xóa, không điền khuyết (không có ô khuyết hay dòng trùng) | Dữ liệu sạch sẵn; chỉ cần chuyển `Date` và thêm 3 cột `Month`, `DayOfWeek`, `IsWeekend` |
 | Khi phân tích **bỏ 295 giờ `Functioning Day = No`**, còn **8.465 giờ** (`df_run` trong notebook) | Cả 295 giờ đều có 0 lượt thuê vì hệ thống ngừng phục vụ, không phản ánh nhu cầu người dùng |
 | Giữ các giờ có số lượt thuê rất cao | Đó là nhu cầu thật (giờ tan tầm, mùa Hạ), không phải lỗi đo |
 | Ngưỡng ngoại lệ IQR: Q3 + 1,5 × IQR | Theo slide Bài 5; trên 8.760 giờ có 158 giờ (ngưỡng 2.376,6), trên 8.465 giờ có 152 giờ (1,8%, ngưỡng 2.389) |

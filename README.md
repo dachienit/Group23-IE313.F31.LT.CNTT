@@ -12,15 +12,16 @@
 | `bao_cao/` | **Sản phẩm nộp thầy**: báo cáo Word, notebook duy nhất, 2 file CSV |
 | `phan_1/` | Bản nguồn phần Thành viên 1 (chuẩn bị dữ liệu, mở đầu) |
 | `phan_2/` | Bản nguồn phần Thành viên 2 (EDA, trực quan hóa, ANOVA) |
+| `phan_3/` | Bản nguồn phần Thành viên 3 (mô hình hồi quy, đánh giá) |
 | `template/` | Mẫu báo cáo `Template_IE313.docx` và `Slides.pptx` của thầy |
 | `Phan_cong_do_an_phantich.docx` | Phân công nhiệm vụ 3 thành viên |
 | `docs/` | Tài liệu bàn giao cho nhóm (xem bên dưới) |
 
 ## Bắt đầu nhanh
 ```bash
-pip install pandas numpy scipy matplotlib seaborn openpyxl nbformat nbconvert ipykernel python-docx
+pip install -r requirements.txt
 cd bao_cao
-jupyter lab do_an_seoul_bike.ipynb      # rồi chọn Run All
+jupyter lab Nhom23_Code.ipynb           # rồi chọn Run All
 ```
 Chi tiết (chạy dòng lệnh, đầu ra, lỗi thường gặp): [docs/HUONG_DAN_CHAY_NOTEBOOK.md](docs/HUONG_DAN_CHAY_NOTEBOOK.md).
 
@@ -31,7 +32,7 @@ Chi tiết (chạy dòng lệnh, đầu ra, lỗi thường gặp): [docs/HUONG_
 | [HUONG_DAN_CHAY_NOTEBOOK.md](docs/HUONG_DAN_CHAY_NOTEBOOK.md) | Cách chạy, cấu trúc notebook, đầu ra, lỗi thường gặp |
 | [YEU_CAU_CUA_THAY.md](docs/YEU_CAU_CUA_THAY.md) | Checklist sản phẩm và báo cáo theo hướng dẫn Buổi 10 |
 | [KET_QUA_VA_QUYET_DINH.md](docs/KET_QUA_VA_QUYET_DINH.md) | Quyết định phân tích đã chốt và số liệu chính để các phần dùng thống nhất |
-| [BAN_GIAO_TV3.md](docs/BAN_GIAO_TV3.md) | Việc cần làm của Thành viên 3: đầu vào, cách nối vào báo cáo và notebook |
+| [BAN_GIAO_TV3.md](docs/BAN_GIAO_TV3.md) | Phần mô hình: lựa chọn đã chốt, kết quả ba mô hình, kết quả kiểm chứng |
 
 ## Quy ước làm việc
 - Chỉ đưa vào `bao_cao/` những gì sẽ nộp; `phan_1/` và `phan_2/` là bản nguồn, không sửa.

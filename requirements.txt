@@ -1,0 +1,15 @@
+# Thư viện cho notebook bao_cao/do_an_seoul_bike.ipynb
+# Cài: pip install -r requirements.txt
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+seaborn
+openpyxl
+
+# Mở và chạy notebook
+jupyterlab
+ipykernel
+nbformat
+nbconvert
